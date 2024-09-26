@@ -8,9 +8,8 @@ pip install git+https://github.com/qiaoyk666/test-sign-api-python.git
 ```
 
 2 DataCloudSign使用
-
 ```bash
-from test-sign-api-python import CertificationSign
+from geovis-cloud-api-node import CertificationSign
 import uuid
 from datetime import datetime
 
@@ -29,4 +28,8 @@ url = f'https://api1-dev.geovisearth.com/daas/certification-dev{path}'
 if (queryString):
     url = f'{url}?{queryString}'
 result = certificationSign.request(url, method, headers, body)
+```
+3 CertificationSign使用
+```bash
+
 ```

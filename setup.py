@@ -2,7 +2,8 @@
 from setuptools import setup, find_packages
 
 setup(
-    name="test_sign_api_python4",
+    # name="test_sign_api_python4",
+    name="test-sign-api-python5",
     version="0.0.1",
     keywords=("pip", "tool"),
     description="test description",

@@ -3,7 +3,7 @@ from setuptools import setup, find_packages
 
 setup(
     # name="test_sign_api_python4",
-    name="test-sign-api-python5",
+    name="test22-sign-api-python4",
     version="0.0.1",
     keywords=("pip", "tool"),
     description="test description",
@@ -17,5 +17,4 @@ setup(
     packages=find_packages(),
     include_package_data=True,
     platforms="any"
-    # install_requires = ["requests"]
 )
